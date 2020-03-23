@@ -1,0 +1,21 @@
+package Hewan;
+
+/**
+ *
+ * @author fakhrul
+ */
+public class ikan extends Hewan{
+    
+    boolean statusGantiAir;
+    //atribut ikan
+    public ikan(boolean statusGantiAir){
+        this.statusGantiAir = statusGantiAir;
+    }
+    //override atribut kelas snjing
+    @Override
+    boolean status(boolean statusPenitipan){
+        this.statusPenitipan = statusPenitipan;
+        return true;
+    }
+    
+}
