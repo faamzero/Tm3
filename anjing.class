@@ -1,0 +1,19 @@
+package Hewan;
+
+/**
+ *
+ * @author fakhrul
+ */
+public class anjing extends Hewan{
+    boolean statusSuntikRabies;
+    
+    public anjing(boolean statusSuntikRabies){
+        this.statusSuntikRabies = statusSuntikRabies;
+    }
+    
+    @Override
+    boolean status(boolean statusPenitipan){
+        this.statusPenitipan = statusPenitipan;
+        return true;
+    }
+}
